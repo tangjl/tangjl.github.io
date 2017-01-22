@@ -15,6 +15,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 500px;
+    padding-top: 100px;
 }
 #icons {
     display: -webkit-box;
@@ -56,12 +57,10 @@ html {
     font-size: 125px;
 }
 #header-text-row {
-    height: 125px;
+    height: 150px;
     padding-right: 2px;
-    margin-bottom: 10px;
 }
-#header-text-row {
-    margin-top: 50px;
+#header-subtext-row {
 }
 .down {
     text-align: center;
