@@ -12,16 +12,18 @@ jQuery(function($) {
         currentMousePos.x = event.pageX;
         currentMousePos.y = event.pageY;
 
+        //delete this later
         $('#location').html('x: ' + currentMousePos.x + " , " + ' y: ' + currentMousePos.y)
 
         var width = Number($(window).width());
         var height = Number($(window).height());
 
-        if(currentMousePos.x || currentMousePos.y) {
+        if(currentMousePos.x <= 2000 && currentMousePos.y <= 1000) {
             var left_pos_l = ( ( currentMousePos.x / (width * 2) ) * 55 ) + 10;
             var right_pos_r =  (( currentMousePos.x / (width * 2)  ) * 55) + 22;
             var top_pos_l = ( currentMousePos.y / (height) ) * 40 + 8;
             var top_pos_r = ( currentMousePos.y / (height) ) * 40 + 8;
+            //and these
             $('#location2').html('x: ' + left_pos_l + " , " + ' y: ' + top_pos_l)
             $('#location3').html('x: ' + right_pos_r + " , " + ' y: ' + top_pos_r)
                     
