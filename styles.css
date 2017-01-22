@@ -56,8 +56,12 @@ html {
     font-size: 125px;
 }
 #header-text-row {
-    height: 150px;
+    height: 125px;
     padding-right: 2px;
+    margin-bottom: 10px;
+}
+#header-text-row {
+    margin-top: 50px;
 }
 .down {
     text-align: center;
