@@ -96,12 +96,12 @@ h1 {
     transform-origin: 50%;
 }
 .eye-l {
-    top: 10px;
-    left: 10px;
+    top: 13px;
+    left: 15px;
 }
 .eye-r {
-    top: 10px;
-    left: 22px;
+    top: 13px;
+    left: 27px;
 }
 @-webkit-keyframes blink { 
     0% { -webkit-transform: scaleX(1) scaleY(1); } 
