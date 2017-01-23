@@ -3,6 +3,10 @@ $(document).ready(function() {
     $(".fa-linkedin-square").delay(400).animate({opacity: "1"}, 2000);
     $(".fa-github").delay(600).animate({opacity: "1"}, 2000);
     $(".fa-instagram").delay(800).animate({opacity: "1"}, 2000);
+    
+    $('.menu-toggle').on('click', function(){
+        $('.full-menu').toggleClass('full-menu-open');
+        })
 });
 
 jQuery(function($) {

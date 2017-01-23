@@ -4,6 +4,9 @@ html {
     font-family: 'Baloo', cursive;
     background-color: #E5E4E2;
 }
+body {
+    margin: 0;
+}
 #header-container {
     display: -webkit-box;
     display: -moz-box;
@@ -158,4 +161,47 @@ footer {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     #header-container {height: 625px;}
+}
+.line {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+#hamburger {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    z-index: 9999;
+}
+.full-menu {
+    visibility: hidden;
+    display: table;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.92);
+    -webkit-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    z-index: 9998;
+}
+.full-menu-open {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.full-menu--middle {
+  display: table-cell;
+  vertical-align: middle;
 }
