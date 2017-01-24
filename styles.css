@@ -43,7 +43,7 @@ body {
     width: 100%;
     height: 2px;
     bottom: 0;
-    background-color: #000;
+    background-color: black;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -84,6 +84,7 @@ h1 {
     background-color: black;
     display: inline-block;
     position: relative;
+    overflow: none;
 }
 .eye {
     width: 5px;
@@ -130,7 +131,6 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    height: 500px;
 }
 * {
     box-sizing: border-box;
@@ -163,19 +163,30 @@ footer {
     .col-12 {width: 100%;}
     #header-container {height: 625px;}
 }
-.line {
-    width: 30px;
-    height: 4px;
-    background-color: black;
-    margin: 6px 0;
-    border-radius: 5px;
-}
 #hamburger {
     position: fixed;
     top: 10px;
     right: 15px;
     cursor: pointer;
     z-index: 9999;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.5s;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
 .full-menu {
     visibility: hidden;
@@ -190,9 +201,16 @@ footer {
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
     transform: scale(0.85);
-    -webkit-transition: all 200ms ease-in-out;
-    transition: all 200ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
     z-index: 9998;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .full-menu-open {
     visibility: visible;
@@ -201,8 +219,35 @@ footer {
     -ms-transform: scale(1);
     transform: scale(1);
 }
-
-.full-menu--middle {
-  display: table-cell;
-  vertical-align: middle;
+.main-nav {
+    font-size: 30px;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+.menu-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.menu-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background-color: black;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.menu-link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.menu-item {
+    margin: 15px 0px;
 }
