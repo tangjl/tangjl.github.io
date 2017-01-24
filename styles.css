@@ -271,7 +271,6 @@ footer {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 700px;
     background-color:;
 }
 .image {
@@ -300,5 +299,5 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color:;
+    padding: 5px;
 }
