@@ -337,7 +337,7 @@ footer {
 .card {
     color: #FFF;
     margin: 10px;
-    background: url(images/nlp.png) no-repeat center; 
+    background: url(images/nlp.PNG) no-repeat center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
