@@ -7,9 +7,9 @@ $(document).ready(function() {
     $('.menu-toggle').on('click', function(){
         $('.full-menu').toggleClass('full-menu-open');
     })
+
     $('.menu-item').on('click', function(){
         $('.full-menu').toggleClass('full-menu-open');
-        //need to fix this as when you click the links on menu doesn't close out hambuger animation
     })
     
 });

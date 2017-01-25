@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <!-- need to fix the eyes range, on landscape mode it screws up, set a max range for the eyes to move-->
 <!-- on reload, the header text shifts because of fontawesome loading icons...fix this-->
+<!-- add a circle around the hamburger -->
 
 <html lang="en">
 <head>
@@ -16,11 +17,11 @@
 <body>
     <div class="full-menu">      
         <ul class="main-nav">
-            <li class="menu-item"><a href="#header-container" class="menu-link">top</a></li>
-            <li class="menu-item"><a href="#about-me" class="menu-link">about me</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">projects</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">resume</a></li>
-            <li class="menu-item"><a href="#" class="menu-link">contact</a></li>
+            <li class="menu-item"><a href="#header-container" class="menu-link" onclick="animateMenu(hamburger)">top</a></li>
+            <li class="menu-item"><a href="#about-me" class="menu-link" onclick="animateMenu(hamburger)">about me</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" onclick="animateMenu(hamburger)">projects</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" onclick="animateMenu(hamburger)">resume</a></li>
+            <li class="menu-item"><a href="#" class="menu-link" onclick="animateMenu(hamburger)">contact</a></li>
         </ul>
     </div>
     <div id="hamburger" class="menu-toggle" onclick="animateMenu(this)">
@@ -66,9 +67,9 @@
             <div class="row" id="descrip">
                 <div class="col-5">
                     <p>Hi there and welcome! I'm Jordan Tang. I am a Computer Science major out of VCU (Go Rams!) 
-                        with a minor in mathematics set to graduate in May 2017. Originally from Canada, I moved 
-                        to Richmond, Virginia with my family when I was 5 years old. Since then, I've been proud 
-                        to call Richmond my home.</p>
+                        with a minor in mathematics set to graduate in May 2017. I have a passion for front-end development
+                        but am also a capable full-stack developer and software engineer. Currently, I am working with
+                        Capital One while still tending to a number of my personal coding related projects/research.</p>
                     <p>Some fun things about me: I love basketball (big Knicks fan), art, food, music, and dogs.</p>
                     <p>Keep scrolling down to check out some of my works, my resume, and contact information. Thanks
                         again for visiting and have a great day!</p>
