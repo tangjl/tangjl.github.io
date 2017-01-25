@@ -3,6 +3,7 @@
 html {
     font-family: 'Baloo', cursive;
     background-color: #E5E4E2;
+    background: url(images/egg_shell_@2X.png);
 }
 body {
     margin: 0;
@@ -174,27 +175,30 @@ footer {
 #hamburger {
     position: fixed;
     top: 10px;
-    right: 15px;
+    right: 10px;
     cursor: pointer;
     z-index: 9999;
+    border: 3px solid black;
+    padding: 1px 4px;
+    background: url(images/egg_shell.png);
 }
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: black;
     margin: 6px 0;
     transition: 0.5s;
 }
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px) ;
+    transform: rotate(-45deg) translate(-6px, 7px) ;
 }
 .change .bar2 {
     opacity: 0;
 }
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
+    -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+    transform: rotate(45deg) translate(-6px, -6px) ;
 }
 .full-menu {
     visibility: hidden;
@@ -271,7 +275,6 @@ footer {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color:;
 }
 .image {
     border: 3px solid black;
@@ -288,7 +291,7 @@ footer {
 .going-down {
     margin: -10px 0px;
 }
-#descrip {
+.descrip {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -300,4 +303,24 @@ footer {
     justify-content: center;
     text-align: center;
     padding: 5px;
+}
+#projects {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: red;
+}
+.col-6 {
+    text-align: center;
+}
+.card {
+    background: url();
 }
