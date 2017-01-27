@@ -96,6 +96,9 @@ h2 {
 .fa-github, .fa-instagram, .fa-linkedin-square {
     opacity: 0;
 }
+.fa-file-pdf-o {
+    margin-top: 30px;
+}
 .ghost {
     width: 64px;
     height: 64px;
@@ -103,9 +106,18 @@ h2 {
     background-color: black;
     display: inline-block;
     position: relative;
-    overflow: none;
 }
-.eye {
+.ghost-2 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 35px;
+    text-align: center;
+    color: white;
+}
+.eye, .eye-2 {
     width: 5px;
     height: 10px;
     border-radius: 50%;
@@ -120,6 +132,10 @@ h2 {
     animation-iteration-count: infinite; 
     transform-origin: 50%;
 }
+.eye-2 {
+    width: 10px;
+    height: 20px;
+}
 .eye-l {
     top: 13px;
     left: 12px;
@@ -127,6 +143,14 @@ h2 {
 .eye-r {
     top: 13px;
     left: 24px;
+}
+.eye-l-2 {
+    top: 35px;
+    left: 50px;
+}
+.eye-r-2 {
+    top: 35px;
+    left: 90px;
 }
 @-webkit-keyframes blink { 
     0% { -webkit-transform: scaleX(1) scaleY(1); } 
@@ -382,4 +406,16 @@ footer {
 h3 {
     font-size: 22px;
     margin-bottom: 0;
+}
+#resume {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
