@@ -258,7 +258,7 @@ footer {
     height: 100%;
     width: 100%;
     opacity: 0;
-    background-color: rgba(255, 255, 255, 0.88);
+    background-color: rgba(255, 255, 255, 0.9);
     -webkit-transform: scale(0.85);
     -ms-transform: scale(0.85);
     transform: scale(0.85);
@@ -281,7 +281,7 @@ footer {
     transform: scale(1);
 }
 .main-nav {
-    font-size: 30px;
+    font-size: 40px;
     padding: 0;
     list-style-type: none;
     text-align: center;
@@ -343,7 +343,7 @@ footer {
     width: 3px;
     background-color: black;
 }
-.descrip {
+.descrip, .descrip-2 {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -355,6 +355,9 @@ footer {
     justify-content: center;
     text-align: center;
     padding: 5px;
+}
+.descrip-2 {
+    margin-bottom: 20px;
 }
 #projects {
     display: -webkit-box;
