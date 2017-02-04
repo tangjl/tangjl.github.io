@@ -464,12 +464,13 @@ h3 {
     font-family: 'Baloo', cursive;
     font-size: 14px;
     width: 90%;
-    margin-bottom: 20px;
+    margin-top: 20px;
     border: 3px solid black;
     padding: 2px 4px;
 }
 .field-2 {
     height: 150px;
+    margin-bottom: 20px;
 }
 .submit {
     padding: 10px;
