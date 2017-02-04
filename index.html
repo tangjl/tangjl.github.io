@@ -2,6 +2,7 @@
 <!-- need to fix the eyes range, on landscape mode it screws up, set a max range for the eyes to move-->
 <!-- on reload, the header text shifts because of fontawesome loading icons...fix this-->
 <!-- https://davidwalsh.name/css-flip -->
+<!-- https://formspree.io/ -->
 
 <html lang="en">
 <head>
@@ -160,12 +161,21 @@
             <div class="row">
                 <div class="box">
                     <div class="row">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        : (804) 332-9058
-                    </div>
-                    <div class="row">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        : jordanltang@gmail.com
+                        <form action="https://formspree.io/jordanltang@email.com"
+                            method="POST">
+                            <div class="row">
+                                <input class="field" type="text" name="name" placeholder="your name">
+                            </div>
+                            <div class="row">
+                                <input class="field" type="email" name="_replyto" placeholder="your email">
+                            </div>
+                            <div class="row">
+                                <textarea class="field-2" name="message" placeholder="your message"></textarea>
+                            </div>
+                            <div class="row">
+                                <button type="submit" class="submit"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
