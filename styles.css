@@ -250,8 +250,8 @@ footer {
     transform: rotate(45deg) translate(-6px, -6px) ;
 }
 @media all and (orientation: landscape) {
-    .main-nav {font-size: 14px;}
-    .menu-item {margin: 5px 0px;}
+    .main-nav {font-size: 12px;}
+    .menu-item {margin: 0px 0px;}
 }
 .full-menu {
     visibility: hidden;
