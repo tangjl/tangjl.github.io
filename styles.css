@@ -249,6 +249,10 @@ footer {
     -webkit-transform: rotate(45deg) translate(-6px, -6px) ;
     transform: rotate(45deg) translate(-6px, -6px) ;
 }
+@media all and (orientation: landscape) {
+    .main-nav {font-size: 14px;}
+    .menu-item {margin: 5px 0px;}
+}
 .full-menu {
     visibility: hidden;
     display: table;
