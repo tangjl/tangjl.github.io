@@ -357,7 +357,7 @@ footer {
     margin-top: 50px;
     margin-bottom: 25px;
 }
-.card {
+.card, .card-2 {
     color: #FFF;
     margin: 10px;
     background: url(images/nlp.PNG) no-repeat center; 
@@ -379,7 +379,14 @@ footer {
     text-align: center;
     cursor: pointer;
 }
-.card:hover .card-cover {
+.card-2 {
+    background: url(images/care.PNG) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.card:hover .card-cover, .card-2:hover .card-cover {
     opacity: 1;
 }
 .card-cover {
