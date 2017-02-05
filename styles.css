@@ -56,7 +56,7 @@ body {
     transform: scaleX(1);
 }
 .icon-link-2 {
-    color: black;
+    color: white;
 }
 .icon-link-2:hover {
     -webkit-transform: scale(1.3);
