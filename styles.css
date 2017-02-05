@@ -217,9 +217,11 @@ footer {
 }
 @media (max-width: 5000px){
     .col-3 {width: 50%;}
+    .card-holder {padding: 0px 10% 100px 10%;}
 }
-@media (max-width: 600px) {
+@media (max-width: 775px) {
     .col-3 {width: 100%;}
+    .card-holder {padding: 0px 0px 100px 0px;}
 }
 #hamburger {
     position: fixed;
@@ -374,9 +376,6 @@ footer {
     align-items: center;
     justify-content: center;
     padding-top: 100px;
-}
-.card-holder {
-    padding-bottom: 100px;
 }
 .card, .card-2 {
     color: #FFF;
