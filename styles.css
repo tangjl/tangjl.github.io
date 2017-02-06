@@ -215,7 +215,7 @@ footer {
     #header-container {height: 625px;}
 }
 @media (max-width: 5000px){
-    .col-3 {width: 50%;}
+    .col-3 {width: 50%;} /*should just make this col-6 right?*/
     .card-holder {padding: 0px 10% 100px 10%;}
 }
 @media (max-width: 775px) {
@@ -376,7 +376,7 @@ footer {
     justify-content: center;
     padding-top: 100px;
 }
-.card, .card-2 {
+.card, .card-2, .card-4 {
     color: #FFF;
     margin: 10px;
     background: url(images/nlp.PNG) no-repeat center; 
@@ -405,7 +405,14 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 }
-.card:hover .card-cover, .card-2:hover .card-cover {
+.card-4 {
+    background: url(images/port.PNG) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.card:hover .card-cover, .card-2:hover .card-cover, .card-4:hover .card-cover {
     opacity: 1;
 }
 .card-cover {
