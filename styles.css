@@ -376,7 +376,7 @@ footer {
     justify-content: center;
     padding-top: 100px;
 }
-.card, .card-2, .card-4 {
+.card, .card-2, .card-3, .card-4 {
     color: #FFF;
     margin: 10px;
     background: url(images/nlp.PNG) no-repeat center; 
@@ -405,6 +405,9 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 }
+.card-3 {
+    background: #FFF;
+}
 .card-4 {
     background: url(images/port.PNG) no-repeat center;
     -webkit-background-size: cover;
@@ -412,7 +415,7 @@ footer {
     -o-background-size: cover;
     background-size: cover;
 }
-.card:hover .card-cover, .card-2:hover .card-cover, .card-4:hover .card-cover {
+.card:hover .card-cover, .card-2:hover .card-cover, .card-3:hover .card-cover, .card-4:hover .card-cover {
     opacity: 1;
 }
 .card-cover {
