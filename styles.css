@@ -406,7 +406,11 @@ footer {
     background-size: cover;
 }
 .card-3 {
-    background: #FFF;
+    background: url(images/perl_code.png) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .card-4 {
     background: url(images/port.PNG) no-repeat center;
@@ -434,7 +438,7 @@ footer {
     -o-transition:.5s;
     -ms-transition:.5s;
     transition:.5s;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.70);
     height: 100%;
     width: 100%;
     padding: 0px 15px 25px 15px;
