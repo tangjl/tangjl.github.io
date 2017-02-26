@@ -2,7 +2,7 @@
 
 body {
     padding: 0px;
-    background-color: #eac825;
+    background-color: #FEDD40;
     font-family: 'Nunito', sans-serif;
 }
 h1 {
@@ -144,7 +144,7 @@ p {
     color: #FFF;
 }
 .item-link:hover {
-    color: #eac825;
+    color: #FEDD40;
 }
 .item-link-2 {
     color: #000;
@@ -181,7 +181,7 @@ p {
     margin-right: 10px;
 }
 .badge .fa-star {
-    color: #eac825;
+    color: #FEDD40;
     font-size: 18px;
 }
 .badge {
@@ -273,7 +273,7 @@ p {
 }
 .submit:hover {
     background-color: #000;
-    color: #eac825;
+    color: #FEDD40;
 }
 .form-container {
     margin-top: 50px;
