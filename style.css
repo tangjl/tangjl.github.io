@@ -185,7 +185,7 @@ p {
     justify-content: center; 
 }
 .header {
-    padding: 250px 10px 100px 10px;
+    padding: 150px 10px 100px 10px;
 }
 .container {
     padding: 100px 10px 50px 10px;
@@ -381,6 +381,7 @@ footer {
     .nav-item {display: inline;}
     .nav-button {display: none;}
     .dropdown-nav {display: none;}
+    .header {padding: 250px 10px 100px 10px;}
 }
 @media all and (min-width: 400px) {
     .col-3 {width: 50%;}
