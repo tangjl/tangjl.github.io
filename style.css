@@ -1,8 +1,85 @@
+/*****************************************General*****************************************/
+
 body {
     padding: 0px;
     background-color: #eac825;
     font-family: 'Nunito', sans-serif;
 }
+h1 {
+    font-size: 18px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+h3 {
+    margin: 0;
+    color: #FFF;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #000;
+}
+h4 {
+    font-size: 18px;
+    margin: 0;
+}
+h5 {
+    background-color: #000;
+    color: #FFF;
+    font-size: 20px;
+    position: absolute;
+    padding: 5px 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+p {
+    font-size: 14px;
+}
+.link {
+    color: #cc1414;
+    font-weight: 700;
+    text-decoration: none;
+}
+.right {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+}
+.light {
+    color: #FFF;
+}
+.love {
+    color: #cc1414;
+}
+.spaced {
+    margin-top: 25px;
+}
+.header, .container, .mini-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.header {
+    padding: 150px 10px 100px 10px;
+}
+.container {
+    padding: 100px 10px 50px 10px;
+}
+.mini-container {
+    padding: 50px 10px;
+}
+
+/*****************************************Nav*****************************************/
+
 .nav {
     padding: 10px;
     z-index: 9999;
@@ -75,124 +152,17 @@ body {
 .item-link-2:hover {
     color: #cc1414;
 }
-h1 {
-    font-size: 18px;
-    font-weight: 900;
-}
-h2 {
-    font-size: 24px;
-    font-weight: 900;
-    margin-bottom: 0;
-}
-h3 {
-    margin: 0;
-    color: #FFF;
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px 10px;
-    background-color: #000;
-}
-h4 {
-    font-size: 18px;
-    margin: 0;
-}
-h5 {
-    background-color: #000;
-    color: #FFF;
-    font-size: 20px;
-    position: absolute;
-    padding: 5px 15px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin: 0;
-}
-p {
-    font-size: 14px;
-}
-.link {
-    color: #cc1414;
-    font-weight: 700;
-    text-decoration: none;
-}
-.right {
-    margin-top: 10px;
-    position: absolute;
-    right: 0;
-}
-.light {
-    color: #FFF;
-}
-.love {
-    color: #cc1414;
-}
+
+/*****************************************Top*****************************************/
 .quote-container {
     position: relative;
 }
 .text-container {
     position: relative;
 }
-.spaced {
-    margin-top: 25px;
-}
-.scrib {
-    height: auto;
-    width: 100px;
-    margin-top: 60px;
-}
-.scrib-2 {
-    height: auto;
-    width: 150px;
-    display: block;
-    margin: auto;
-    margin-top: 75px;
-}
-.scrib-3 {
-    height: auto;
-    width: 175px;
-    display: block;
-    margin: auto;
-    margin-top: 120px;
-}
-.scrib-4 {
-    height: auto;
-    width: 125px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 75px;
-}
-.scrib-5 {
-    height: auto;
-    width: 175px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 75px;
-}
-.sig {
-    height: auto;
-    position: absolute;
-    right: 0;
-    margin-top: 10px;
-    width: 150px;
-}
-.header, .container, .mini-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-}
-.header {
-    padding: 150px 10px 100px 10px;
-}
-.container {
-    padding: 100px 10px 50px 10px;
-}
-.mini-container {
-    padding: 50px 10px;
-}
+/*****************************************About*****************************************/
+/*****************************************Skill*****************************************/
+
 .badge-container {
     padding: 10px;
 }
@@ -226,6 +196,9 @@ p {
 .badge:hover {
     transform: scale(1.05);
 }
+
+/*****************************************Projects*****************************************/
+
 .card-1 {
     background: url(assets/nlp.PNG) no-repeat center;
 }
@@ -272,16 +245,9 @@ p {
 .icon-link:hover {
     transform: scale(1.3);
 }
-.icon-link-2 {
-    color: #000;
-    margin-left: 5px;
-}
-.icon-container {
-    margin-top: 10px;
-}
-.mid {
-    margin: 0 8px;
-}
+
+/*****************************************Contact*****************************************/
+
 .field, .field-2 {
     padding: 5px;
     font-size: 14px;
@@ -293,10 +259,6 @@ p {
 .field-2 {
     height: 200px;
     max-width: 250px;
-}
-label {
-    font-weight: 700;
-    font-size: 14px;
 }
 .submit {
     cursor: pointer;
@@ -329,6 +291,16 @@ form {
     padding-top: 40px;
     box-shadow: 6px 6px 1px 0px rgba(0,0,0,0.2);
 }
+
+/*****************************************Footer*****************************************/
+
+.icon-link-2 {
+    color: #000;
+    margin-left: 5px;
+}
+.icon-container {
+    margin-top: 10px;
+}
 .goodbye {
     text-align: center;
 }
@@ -342,6 +314,49 @@ footer {
     text-align: center;
     margin-top: 50px;
 }
+
+/*****************************************Scribbles*****************************************/
+
+[class*="scrib"], .sig {
+    height: auto;
+}
+.scrib {
+    width: 100px;
+    margin-top: 60px;
+}
+.scrib-2 {
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+}
+.scrib-3 {
+    width: 175px;
+    display: block;
+    margin: auto;
+    margin-top: 120px;
+}
+.scrib-4 {
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.scrib-5 {
+    width: 175px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+.sig {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 150px;
+}
+
+/*****************************************Responsive items and grid*****************************************/
+
 * {
     box-sizing: border-box;
 }
@@ -392,3 +407,9 @@ footer {
 @media all and (min-width: 1000px) {
     .col-6 {width: 50%;}
 }
+
+
+
+
+
+
