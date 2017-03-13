@@ -214,12 +214,19 @@ p {
 .card-4 {
     background: url(assets/port.PNG) no-repeat center;
 }
+.card-5 {
+    background: url(assets/new.PNG) no-repeat center;
+}
+.card-6 {
+    background: url(assets/plain.PNG) no-repeat center;
+}
 [class*="card-"] {
     background-size: cover;
     margin: 10px 0px;
     height: 200px;
     cursor: pointer;
     position: relative;
+    border: 1px solid rgba(0,0,0,0.1);
     overflow: hidden;
     box-shadow: 6px 6px 1px 0px rgba(0,0,0,0.2);
 }
@@ -237,7 +244,7 @@ p {
     padding: 15px;
     overflow: hidden;
 }
-.icon-link {
+.icon-link, .icon-link-3 {
     color: #FFF;
     text-decoration: none;
     position: absolute;
@@ -245,7 +252,11 @@ p {
     bottom: 15px;
     transition: 0.5s;
 }
-.icon-link:hover {
+.icon-link-3 {
+    right: 45px;
+    bottom: 14px;
+}
+.icon-link:hover, .icon-link-3:hover {
     transform: scale(1.3);
 }
 
@@ -382,12 +393,11 @@ footer {
 @media all and (min-width: 600px) {
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
-    .col-3 {width: 50%;}
     .col-4 {width: 33.33%;}
     .col-5 {width: 41.66%;}
     .col-7 {width: 58.33%;}
-    .col-9 {width: 75%;}
     .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
